@@ -102,6 +102,15 @@ footer{
     display: block;
     padding: 1em;
 }
+/* STYLING FOR THE SUB PAGES */
+.page-sub .hero {
+    background-color: (0,0,0,.1);
+
+}
+
+
+
+
 
 /* FOR DEV PURPOSES */
 /* body * {
