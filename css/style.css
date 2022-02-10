@@ -3,9 +3,9 @@
 body { margin: 0; }
 
 /* GLOBAL COLORS */
-body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
-a:hover { color: rgba(0, 51, 153, 1); }
+body { color: black; }
+a { color: olivedrab; }
+a:hover { color: black; }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -18,8 +18,8 @@ body {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
-    color: rgba(0, 0, 0, 0.8); 
+    background-color: olivedrab;
+    color: olivedrab; 
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,12 +27,12 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     text-decoration: none;
 }
 
 header a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: white;
 }
 
 
@@ -144,11 +144,23 @@ aside {
     }
 }
 
-/* SUB PAGES */
+/*  STYLING FOR SPECIFIC PAGES & SUB PAGES */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
 }
+.page-home .hero{
+    background-image: url(../img/grass.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 20vh 1em;
+}
+.page-home header {
+   background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
 
 /* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
 .coursework {
